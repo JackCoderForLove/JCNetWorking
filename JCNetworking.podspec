@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCNetworking'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '罗汉番天印的简单的网络框架'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JCNetworking/Classes/**/*'
   
-  # s.resource_bundles = {
+  #s.resource_bundles = {
   #   'JCNetworking' => ['JCNetworking/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit','Foudation'
-  # s.dependency 'AFNetworking', '~> 3.2.0'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit','Foudation','WebKit'
+   s.dependency 'AFNetworking', '~> 3.2.0'
+   s.dependency 'Toast', '~> 4.0.0'
 end
