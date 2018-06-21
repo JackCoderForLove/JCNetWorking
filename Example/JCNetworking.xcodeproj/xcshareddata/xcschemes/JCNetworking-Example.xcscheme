@@ -33,8 +33,13 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
+<<<<<<< HEAD
                BuildableName = "JCNetworking_Tests.xctest"
                BlueprintName = "JCNetworking_Tests"
+=======
+               BuildableName = "JCNetworking.xctest"
+               BlueprintName = "JCNetworking"
+>>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
                ReferencedContainer = "container:JCNetworking.xcodeproj">
             </BuildableReference>
          </TestableReference>

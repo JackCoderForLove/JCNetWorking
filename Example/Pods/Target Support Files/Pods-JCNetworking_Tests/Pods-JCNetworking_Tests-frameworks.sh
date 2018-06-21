@@ -141,6 +141,16 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+<<<<<<< HEAD
+=======
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JCNetworking/JCNetworking.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JCNetworking/JCNetworking.framework"
+fi
+>>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

@@ -2,8 +2,13 @@
 //  JCNetworkingTests.m
 //  JCNetworkingTests
 //
+<<<<<<< HEAD
 //  Created by JackCoderForLove on 06/21/2018.
 //  Copyright (c) 2018 JackCoderForLove. All rights reserved.
+=======
+//  Created by lice on 06/21/2018.
+//  Copyright (c) 2018 lice. All rights reserved.
+>>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
 //
 
 @import XCTest;
