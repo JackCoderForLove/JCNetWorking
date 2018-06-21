@@ -65,8 +65,6 @@
             //NSSet *websiteDataTypes = [WKWebsiteDataStore allWebsiteDataTypes];
             NSDate *dateFrom = [NSDate dateWithTimeIntervalSince1970:0];
             [[WKWebsiteDataStore defaultDataStore] removeDataOfTypes:websiteDataTypes modifiedSince:dateFrom completionHandler:^{
-                
-//                   [[UIApplication sharedApplication].keyWindow makeToast:@"清除缓存成功" duration:1 position:CSToastPositionCenter];
 
             }];
             [[NSURLCache sharedURLCache] removeAllCachedResponses];
