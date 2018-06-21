@@ -66,11 +66,8 @@
             NSDate *dateFrom = [NSDate dateWithTimeIntervalSince1970:0];
             [[WKWebsiteDataStore defaultDataStore] removeDataOfTypes:websiteDataTypes modifiedSince:dateFrom completionHandler:^{
                 
-<<<<<<< HEAD
 //                   [[UIApplication sharedApplication].keyWindow makeToast:@"清除缓存成功" duration:1 position:CSToastPositionCenter];
-=======
-                   [[UIApplication sharedApplication].keyWindow makeToast:@"清除缓存成功" duration:1 position:CSToastPositionCenter];
->>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
+
             }];
             [[NSURLCache sharedURLCache] removeAllCachedResponses];
         
