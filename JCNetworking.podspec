@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCNetworking'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JCNetworking.'
+  s.version          = '0.3.0'
+  s.summary          = '简单网络框架'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Toast', '~> 4.0.0'
+   s.dependency 'AFNetworking', '~> 3.2.0'
 end
