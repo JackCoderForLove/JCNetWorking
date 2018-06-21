@@ -8,13 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCNetworking'
-<<<<<<< HEAD
+
   s.version          = '0.3.0'
   s.summary          = '简单网络框架'
-=======
-  s.version          = '0.2.0'
-  s.summary          = '罗汉番天印的简单的网络框架'
->>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,11 +26,9 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/JackCoderForLove/JCNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-<<<<<<< HEAD
+
   s.author           = { 'JackCoderForLove' => '979900351@qq.com' }
-=======
-  s.author           = { 'lice' => '979900351@qq.com' }
->>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
+
   s.source           = { :git => 'https://github.com/JackCoderForLove/JCNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -41,7 +36,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JCNetworking/Classes/**/*'
   
-<<<<<<< HEAD
   # s.resource_bundles = {
   #   'JCNetworking' => ['JCNetworking/Assets/*.png']
   # }
@@ -50,14 +44,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Toast', '~> 4.0.0'
    s.dependency 'AFNetworking', '~> 3.2.0'
-=======
-  #s.resource_bundles = {
-  #   'JCNetworking' => ['JCNetworking/Assets/*.png']
-  # }
 
-  #s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit','Foudation','WebKit'
-   s.dependency 'AFNetworking', '~> 3.2.0'
-   s.dependency 'Toast', '~> 4.0.0'
->>>>>>> 9be7ea93474dfe29729393f976f6915de7865d1c
 end
