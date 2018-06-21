@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JCNetworking_Tests' do
+  pod 'JCNetworking', :path => '../'
+  
+  
+end
